@@ -5,12 +5,32 @@ html, body {
     flex-direction: column;
 }
 
+body {
+    background-image: url("../images/webAgencyFront.webp"); /* Uppdatera sökvägen om bilden finns i en annan mapp */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 main {
-    flex: 1;
+    position: absolute;
+    bottom: 28%;
+    left: 8%;
+}
+
+.text-box {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 800px; /* Anpassar bredden efter innehållet */
+    max-width: 90%; /* Justera efter behov */
+    word-wrap: break-word;
 }
 
 
-.hero {
-    background-color: #e0e0e0;
-    padding: 50px 20px;
+footer {
+    margin-top: auto; /* Håller footern längst ner */
 }
